@@ -1,0 +1,126 @@
+
+body{
+    background-color: #F3F5FC;
+}
+
+main{
+    min-height: 70vh;
+}
+
+#logo{
+    margin: 40px;
+    width: 100px;
+}
+
+.intext{
+    width: 70%;
+    height: 75vh;
+    text-align: center;
+}
+
+.introducir-texto{
+    width: 50%;
+    height: 80%;
+    padding: 15px;
+    font-size: 20px;
+    margin: 0 auto;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    display: block;
+    border: none;
+}
+
+.introducir-texto::placeholder{
+    color:#0A3871;
+}
+
+.botones-in, td{
+    display: inline;
+    padding: 10px;
+}
+
+.encriptar, .desencriptar, .copiar{
+    margin-top: 10px;
+    width: 150px;
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    transition: 0.3 ease;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-transition: 0.3 ease;
+    -moz-transition: 0.3 ease;
+    -ms-transition: 0.3 ease;
+    -o-transition: 0.3 ease;
+}
+
+.encriptar:hover, .desencriptar:hover, .copiar:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 0px #0A3871;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+
+
+.encriptar{
+    color: white;
+    background-color: #0A3871;
+    border-color: #6f96f3;
+}
+
+.desencriptar, .copiar{
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border-color: #0A3871;
+}
+
+.outext{
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    left: 70%;
+    top: 0%;
+    margin-top: 40px;
+}
+
+.texto-desencriptado{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    display: block;
+    width: 70%;
+    height: 80%;
+    padding: 15px;
+    background-image: url("pictures/Muñecoimagen.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.copiar{
+    position: absolute;
+    left: 23%;
+    bottom: 20%;
+}
+
+footer{
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    height: 15px;
+    text-align: center;
+    padding: 10px;
+}
